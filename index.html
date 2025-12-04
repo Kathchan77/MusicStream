@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>MusicStream</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MusicStream</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Basculer la navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Genres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Playlists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mon Compte</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="alert alert-warning" role="alert">
+            Votre abonnement expire bientôt !
+        </div>
+        <h2 class="text-center mb-4">Explorez les Genres</h2>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="genre-item text-center m-3">
+                <img src="images/rock.avif" alt="Rock" class="mb-3" style="width: 80px;" />
+                <h5>Rock</h5>
+            </div>
+            <div class="genre-item text-center m-3">
+                <img src="images/jazz.avif" alt="Jazz" class="mb-3" style="width: 80px;" />
+                <h5>Jazz</h5>
+            </div>
+            <div class="genre-item text-center m-3">
+                <img src="images/pop.avif" alt="Pop" class="mb-3" style="width: 80px;" />
+                <h5>Pop</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Albums Populaires</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card h-100">
+                <img src="images/album1.avif" class="card-img-top" alt="Album 1" />
+                <div class="card-body">
+                <h5 class="card-title">Album 1</h5>
+                <p class="card-text">Artiste 1</p>
+                <a href="#" class="btn btn-primary">Écouter Maintenant</a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100">
+                <img src="images/album2.avif" class="card-img-top" alt="Album 1" />
+                <div class="card-body">
+                <h5 class="card-title">Album 1</h5>
+                <p class="card-text">Artiste 1</p>
+                <a href="#" class="btn btn-primary">Écouter Maintenant</a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100">
+                <img src="images/album3.avif" class="card-img-top" alt="Album 1" />
+                <div class="card-body">
+                <h5 class="card-title">Album 1</h5>
+                <p class="card-text">Artiste 1</p>
+                <a href="#" class="btn btn-primary">Écouter Maintenant</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Ce que disent nos utilisateurs</h2>
+        <div class="d-flex flex-column justify-content-around align-items-stretch">
+            <div class="card m-2 flex-fill">
+                <div class="card-body">
+                <p class="card-text"> "MusicStream a changé ma façon d'écouter de la musique !"</p>
+                <p class="card-text"><small>- Sophie M.</small></p>
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-around align-items-stretch">
+            <div class="card m-2 flex-fill">
+                <div class="card-body">
+                <p class="card-text"> "J'adore MusicStream, c'est la meilleure plateforme !"</p>
+                <p class="card-text"><small>- Pierre O.</small></p>
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-around align-items-stretch">
+            <div class="card m-2 flex-fill">
+                <div class="card-body">
+                <p class="card-text"> "Il y a tous mes albums de rocks préférés."</p>
+                <p class="card-text"><small>- Johnny H.</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
