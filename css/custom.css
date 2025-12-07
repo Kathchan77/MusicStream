@@ -9,3 +9,13 @@
 .card-title {
   font-weight: bold;
 }
+
+.hero {
+  background-image: url(../images/background.webp);
+  border-radius: 10px;
+  color: white;
+}
+
+.hero h1 {
+  font-weight: bold;
+}
