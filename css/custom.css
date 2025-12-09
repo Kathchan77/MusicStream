@@ -19,3 +19,75 @@
 .hero h1 {
   font-weight: bold;
 }
+
+.music-footer {
+  background: #0d0d0d;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-col h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #1db954; /* Vert style Spotify */
+}
+
+.footer-col h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.footer-col p {
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-col ul li a:hover {
+  color: #1db954;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 10px;
+  transition: 0.2s;
+  filter: brightness(0) invert(1);
+}
+
+.social-icons a img:hover {
+  filter: invert(55%) sepia(67%) saturate(554%) hue-rotate(94deg) brightness(96%) contrast(91%);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #333;
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
