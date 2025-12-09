@@ -1,13 +1,12 @@
-body {
-  background-color: #363636; /* Couleur sombre pour le fond */
-}
+ /* une idée que j'ai eu : body {
+  background-image: linear-gradient(#363636, rgb(172, 0, 134)); 
+}*/
 
 .navbar { /* barre de navigation */
   background-image: linear-gradient(to bottom left, rgb(0, 0, 126), rgb(184, 0, 144))
 }
 
-.navbar-brand {
-  display: none;
+.navbar-brand { /* titre du site (à coté du logo) */
   color: #ffffff;
   font-weight: bold;
   font-size: 24px;
@@ -20,9 +19,6 @@ body {
 .logo_ms:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
-  .navbar-brand {
-    display: ;
-  }
 }
 
 .nav-link { /* liens de la barre de navigation */
@@ -30,7 +26,7 @@ body {
 }
 
 .genre-item h5 {
-  color: #ffffff;
+  color: #1db954;
 }
 
 .card-title {
